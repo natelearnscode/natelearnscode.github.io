@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="300"
-   height="300"
-   viewBox="0 0 79.374998 79.375002"
+   width="180.58362"
+   height="225.15276"
+   viewBox="0 0 47.779414 59.571668"
    version="1.1"
    id="svg3719"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
@@ -147,7 +147,8 @@
          cx="39.778645"
          cy="44.3731"
          rx="23.871096"
-         ry="23.033762" />
+         ry="23.033762"
+         d="M 63.64974,44.3731 A 23.871096,23.033762 0 0 1 39.778645,67.406862 23.871096,23.033762 0 0 1 15.907549,44.3731 23.871096,23.033762 0 0 1 39.778645,21.339338 23.871096,23.033762 0 0 1 63.64974,44.3731 Z" />
     </clipPath>
     <clipPath
        clipPathUnits="userSpaceOnUse"
@@ -158,7 +159,8 @@
          cx="39.778645"
          cy="44.3731"
          rx="23.871096"
-         ry="23.033762" />
+         ry="23.033762"
+         d="M 63.64974,44.3731 A 23.871096,23.033762 0 0 1 39.778645,67.406862 23.871096,23.033762 0 0 1 15.907549,44.3731 23.871096,23.033762 0 0 1 39.778645,21.339338 23.871096,23.033762 0 0 1 63.64974,44.3731 Z" />
     </clipPath>
     <clipPath
        clipPathUnits="userSpaceOnUse"
@@ -169,7 +171,8 @@
          cx="39.778645"
          cy="44.3731"
          rx="23.871096"
-         ry="23.033762" />
+         ry="23.033762"
+         d="M 63.64974,44.3731 A 23.871096,23.033762 0 0 1 39.778645,67.406862 23.871096,23.033762 0 0 1 15.907549,44.3731 23.871096,23.033762 0 0 1 39.778645,21.339338 23.871096,23.033762 0 0 1 63.64974,44.3731 Z" />
     </clipPath>
   </defs>
   <sodipodi:namedview
@@ -180,8 +183,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="3.2126218"
-     inkscape:cx="152.97586"
-     inkscape:cy="167.52093"
+     inkscape:cx="30.73908"
+     inkscape:cy="143.45354"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -194,7 +197,11 @@
      inkscape:measure-start="111.265,204.031"
      inkscape:measure-end="185.051,204.031"
      inkscape:snap-global="false"
-     inkscape:pagecheckerboard="true" />
+     inkscape:pagecheckerboard="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata3716">
     <rdf:RDF>
@@ -203,7 +210,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -211,7 +218,7 @@
      inkscape:label="background"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-217.62498)"
+     transform="translate(-15.70561,-231.06048)"
      style="display:inline">
     <ellipse
        style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.18246277;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -226,7 +233,7 @@
      id="layer6"
      inkscape:label="neck"
      style="display:inline"
-     sodipodi:insensitive="true">
+     transform="translate(-15.70561,-13.4355)">
     <rect
        style="fill:#d28c5d;fill-opacity:1;stroke:none;stroke-width:0.09670305;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
        id="rect6802"
@@ -240,7 +247,7 @@
      id="layer2"
      inkscape:label="body"
      style="display:inline"
-     sodipodi:insensitive="true">
+     transform="translate(-15.70561,-13.4355)">
     <path
        style="fill:none;stroke:none;stroke-width:0.19312912px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 7.5583373,67.965067 c 2.4131082,-7.852499 4.8261297,-15.704716 8.1996067,-19.540428 3.373477,-3.835712 7.707719,-3.655194 10.917285,-4.061382 3.209565,-0.406188 5.294668,-1.399028 7.379489,-2.391734"
@@ -280,12 +287,13 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="outline"
-     style="display:inline" />
+     style="display:inline"
+     transform="translate(-15.70561,-13.4355)" />
   <g
      inkscape:groupmode="layer"
      id="layer7"
      inkscape:label="head"
-     sodipodi:insensitive="true">
+     transform="translate(-15.70561,-13.4355)">
     <g
        id="g6891"
        transform="matrix(1.1761499,0,0,1.1141293,82.956504,-8.2504495)">
@@ -308,7 +316,7 @@
      id="layer10"
      inkscape:label="face"
      style="display:inline"
-     sodipodi:insensitive="true">
+     transform="translate(-15.70561,-13.4355)">
     <g
        inkscape:groupmode="layer"
        id="layer11"
@@ -454,7 +462,7 @@
      id="layer8"
      inkscape:label="hair"
      style="display:inline"
-     sodipodi:insensitive="true">
+     transform="translate(-15.70561,-13.4355)">
     <path
        style="fill:#050505;fill-opacity:1;stroke:none;stroke-width:0.02766015;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
        d=""
@@ -580,7 +588,7 @@
      id="layer9"
      inkscape:label="ears"
      style="display:inline"
-     sodipodi:insensitive="true">
+     transform="translate(-15.70561,-13.4355)">
     <ellipse
        style="fill:#d28c5d;fill-opacity:1;stroke:none;stroke-width:0.1536468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
        id="path6807"
