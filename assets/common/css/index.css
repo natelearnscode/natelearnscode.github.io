@@ -1,4 +1,4 @@
-*, html {
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -6,25 +6,31 @@
     width: 100%;
 }
 
+html {
+    background: url(../img/fakurian-design-GJKx5lhwU3M-unsplash.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-size: calc(1em + 1vw);
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.5vw;
-    margin: 0;
-    height: 100%;
-    width: 100%;
+    overflow: auto;
 }
 
 h1 {
-    font-family:  'Montserrat', sans-serif;
-    font-size: 5vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
     margin: 5px 10px;
     width: auto;
-    height:auto;
+    height: auto;
 }
 
 h2 {
     font-family:  'Montserrat', sans-serif;
-    font-size: 3vw;
+    font-size: 1.5em;
     margin: 20px 10px;
     width: auto;
     height:auto;
@@ -37,47 +43,25 @@ p {
     padding: 5px 25px;
 }
 
-.background {
-    max-width: 100%;
-    height: 100%;
-    background-image: url(../img/fakurian-design-GJKx5lhwU3M-unsplash.jpg);
-    filter: blur(1px);
-    -webkit-filter: blur(3px);
-    background-position: center;
-    background-repeat: repeat-y;
-    background-size: cover;
-    position: fixed;
-    left: 0;
-    right: 0;
-    z-index: -1;
+.intro {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    z-index: 1;
+    text-align: center;
+    overflow: auto;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+
+.icon {
+    height: 20vh;
     overflow: hidden;
 }
 
-/* Style the intro */
-.intro {
+.icon img {
     margin: auto;
-    width: 100%;
-    height: fit-content;
-    position: absolute;
-    z-index: 0;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    overflow: auto;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 20px;
-    text-align: center;
-}
-
-
-
-.intro img {
-    width: 50%;
-    max-width: 300px;
-    height: 100%;
-    margin-bottom: 10px;
     filter: drop-shadow(0 5px 5px rgb(66, 66, 66));
 }
 
@@ -100,12 +84,12 @@ p {
     box-shadow: rgba(0,0,0,0.8) 0 0 10px;
 }
 
-/* On screens that are less than 700px wide */
-@media screen and (max-width: 700px) {
+
+@media (orientation: portrait) {
     .content {
         width: 100%;
     }
-}
+  }
 
 .content .links {
     display: block;
