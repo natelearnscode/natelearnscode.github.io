@@ -2066,7 +2066,7 @@ footer { width: 100%; }
 
 .main-content { padding-top: 10px; padding-bottom: 10px; height: auto; margin: auto; }
 
-.home-link { text-decoration: none; width: 100%; }
+.front-title { padding: 0 10px; }
 
 #icon { filter: drop-shadow(0 0 0.5rem black); }
 
