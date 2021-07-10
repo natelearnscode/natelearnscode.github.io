@@ -3,24 +3,33 @@
     margin: 0;
 }
 
-html, body {
-    min-height: 100vh;
-    background: rgb(92, 92, 92);
-    box-shadow: inset 0 0 4rem black;
+html {
+    //width: 100%;
+    //min-height: 100%;
+    /* mobile viewport bug fix */
+    min-height: -webkit-fill-available;
+    background: linear-gradient(#677D71, #80968A);
+    background-attachment:fixed;
+}
+
+body {
+    background: rgba(0, 0, 0, 0);
 }
 
 footer {
-    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .page-content {
-    height: 100vh;
-    overflow: auto;
 }
 
 .main-content {
     padding-top: 10px;
     padding-bottom: 10px;
+    width: 100%;
     height: auto;
     margin: auto;
+}
+
+.row {
 }
